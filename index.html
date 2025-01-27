@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wanderlust Travel Agency</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <nav>
+        <div class="logo">Wanderlust</div>
+        <button class="mobile-nav-toggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#destinations">Destinations</a></li>
+            <li><a href="#packages">Packages</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+
+
+    <section class="slider-section">
+        <div class="slider-wrapper">
+            <div class="main-slider">
+                <div class="slide-item active">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/2519660-uhd_3840_2160_24fps.mp4" type="video/mp4">
+                    </video>
+                    <div class="slide-overlay">
+                        <h2>Discover Paradise</h2>
+                        <p>Experience the beauty of untouched landscapes</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/2558530-hd_1920_1080_25fps.mp4" type="video/mp4">
+                    </video>
+                    <div class="slide-overlay">
+                        <h2>Urban Adventures</h2>
+                        <p>Explore vibrant cities and cultural hotspots</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/3059073-hd_1920_1080_24fps.mp4" type="video/mp4">
+                    </video>
+                    <div class="slide-overlay">
+                        <h2>Mountain Escapes</h2>
+                        <p>Find serenity in nature's grandeur</p>
+                    </div>
+                </div>
+                <div class="slide-item">
+                    <video autoplay muted loop playsinline>
+                        <source src="images/3125396-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                    </video>
+                    <div class="slide-overlay">
+                        <h2>Coastal Dreams</h2>
+                        <p>Let the ocean breeze guide your journey</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slider-controls">
+                <div class="slider-nav">
+                    <button class="nav-btn prev" aria-label="Previous slide">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="nav-btn next" aria-label="Next slide">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+                
+                <div class="slider-thumbnails">
+                    <div class="thumbnail active" data-index="0">
+                        <video muted>
+                            <source src="images/2519660-uhd_3840_2160_24fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="thumbnail" data-index="1">
+                        <video muted>
+                            <source src="images/2558530-hd_1920_1080_25fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="thumbnail" data-index="2">
+                        <video muted>
+                            <source src="images/3059073-hd_1920_1080_24fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                    <div class="thumbnail" data-index="3">
+                        <video muted>
+                            <source src="images/3125396-uhd_3840_2160_25fps.mp4" type="video/mp4">
+                        </video>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destinations" class="destinations">
+        <h2>Popular Destinations</h2>
+        <div class="destination-grid">
+            <div class="destination-card">
+                <img src="./images/paris.jpg" alt="Paris">
+                <h3>Paris</h3>
+                <p>The City of Love.  Paris is widely regarded as one of the most beautiful cities of love. The Louvre Museum, Notre Dame Cathedral, and the Eiffel Tower are world-famous. It's known as a romantic and cultural city. The city is also well-known for its excellent gastronomy and café terraces.</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+            <div class="destination-card">
+                <img src="./images/Italy.jpg" alt="Bali">
+                <h3>Italy</h3>
+                <p>Italy is well-known for its architecture, culture, art, opera, literature, film, and fashion.</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+            <div class="destination-card">
+                <img src="./images/newYork.jpg" alt="New York">
+                <h3>New York</h3>
+                <p>New York is the most ethnically diverse, religiously varied, commercially driven, famously congested, and, in the eyes of many, the most attractive urban centre in the country.</p>
+                <button class="book-now-btn">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="packages" class="packages">
+        <h2>Travel Packages</h2>
+        <div class="package-grid">
+            <div class="package-card">
+                <h3>Weekend Getaway</h3>
+                <p class="price">From $299</p>
+                <ul>
+                    <li>3 Days, 2 Nights</li>
+                    <li>Hotel Accommodation</li>
+                    <li>Guided Tours</li>
+                    <li>Airport Transfer</li>
+                </ul>
+                <button class="book-now">Book Now</button>
+            </div>
+            <div class="package-card">
+                <h3>Adventure Package</h3>
+                <p class="price">From $599</p>
+                <ul>
+                    <li>5 Days, 4 Nights</li>
+                    <li>Luxury Resort Stay</li>
+                    <li>Adventure Activities</li>
+                    <li>All-Inclusive Meals</li>
+                </ul>
+                <button class="book-now">Book Now</button>
+            </div>
+            <div class="package-card">
+                <h3>Luxury Escape</h3>
+                <p class="price">From $999</p>
+                <ul>
+                    <li>7 Days, 6 Nights</li>
+                    <li>5-Star Accommodation</li>
+                    <li>Private Tours</li>
+                    <li>Premium Services</li>
+                </ul>
+                <button class="book-now">Book Now</button>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <div class="about-content">
+            <div class="about-text">
+                <p>Wanderlust Travel Agency has been creating unforgettable travel experiences since 2010. We specialize in crafting personalized journeys that cater to your unique preferences and desires.</p>
+                <p>Our team of expert travel consultants is dedicated to ensuring every aspect of your trip is perfect, from accommodation to activities.</p>
+            </div>
+            <div class="stats">
+                <div class="stat-item">
+                    <h3>1000+</h3>
+                    <p>Happy Clients</p>
+                </div>
+                <div class="stat-item">
+                    <h3>50+</h3>
+                    <p>Destinations</p>
+                </div>
+                <div class="stat-item">
+                    <h3>100%</h3>
+                    <p>Satisfaction</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <form id="contactForm" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="from_name" placeholder="Your Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="from_email" placeholder="Your Email" required>
+                </div>
+                <div class="form-group">
+                    <input type="tel" id="phone" name="phone" placeholder="Your Phone Number" required>
+                </div>
+                <div class="form-group">
+                    <select id="subject" name="subject" required>
+                        <option value="">Select Subject</option>
+                        <option value="general">General Inquiry</option>
+                        <option value="booking">Booking Information</option>
+                        <option value="support">Customer Support</option>
+                        <option value="feedback">Feedback</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                </div>
+                <button type="submit" class="submit-btn">Send Message</button>
+            </form>
+            <div id="successMessage" class="success-message" style="display: none;">
+                Thank you for your message! We'll get back to you soon.
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Wanderlust</h3>
+                <p>Your trusted travel companion since 2024. We specialize in creating unforgettable travel experiences around the world.</p>
+                <div class="contact-info-footer">
+                    <p><i class="fas fa-phone"></i> 9308631825</p>
+                    <p><i class="fas fa-envelope"></i> mrmanishkr7911@gmail.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Patna City, Patna, Bihar</p>
+                </div>
+            </div>
+            
+            <div class="footer-section">
+                <h3>Quick Links</h3>
+                <ul class="footer-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#packages">Travel Packages</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Popular Destinations</h3>
+                <ul class="footer-links">
+                    <li><a href="#paris">Paris, France</a></li>
+                    <li><a href="#italy">Italy</a></li>
+                    <li><a href="#newyork">New York, USA</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-section">
+                <h3>Connect With Us</h3>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/shlok-sri/" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://www.instagram.com/Shlok__23_sri/" target="_blank" title="Instagram">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="https://github.com/Shlok-Vertex" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+                <div class="newsletter">
+                    <h4>Subscribe to Newsletter</h4>
+                    <form id="newsletter-form" class="newsletter-form">
+                        <input type="email" placeholder="Enter your email" required>
+                        <button type="submit"><i class="fas fa-paper-plane"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer-bottom">
+            <p>&copy; 2024 Wanderlust Travel. All rights reserved.</p>
+            <div class="footer-bottom-links">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Service</a>
+                <a href="#">Cookie Policy</a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script type="text/javascript">
+        (function() {
+            emailjs.init("L0FrRkdcncN9bPN8Yx");
+        })();
+    </script>
+</body>
+</html>
