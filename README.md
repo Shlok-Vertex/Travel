@@ -1,4 +1,4 @@
-# Travel Explorer 🌎.
+# Travel Explorer 🌎. 
 
 A modern, interactive travel website designed to inspire wanderlust and help travelers discover, plan, and book their perfect getaway. This website combines stunning visuals with seamless functionality to create an engaging user experience.
 
